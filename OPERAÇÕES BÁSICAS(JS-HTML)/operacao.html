@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operacao</title>
+
+</head>
+<body>
+
+    <input id="numero1" name="numero1" value="" type="text">
+    <p>x</p>
+    <input id="numero2" name="numero2" value="" type="text">
+    <button onclick="enviar()">multiplicar</button>
+    
+    <script type="text/javascript">
+        function enviar(){
+            var numero1 = document.getElementById("numero1").value;
+            var numero2 = document.getElementById("numero2").value;
+            var resultado = numero1 * numero2;
+            alert(resultado);
+        }
+    </script>
+
+
+</body>
+</html>
